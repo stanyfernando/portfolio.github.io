@@ -1,213 +1,219 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Stany Fernando - Personal Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="https://i.ibb.co/zx8NC6D/sf.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    <meta property="og:title" content="Stany Fernando">
-    <meta property="og:description" content="The secrets of the universe lie in the darkness, where life meets death and the boundary between them blurs. In that space, the whispers of the unknown echo through eternity, and the shadows of the past linger like ghosts, waiting to be remembered.">
-    <meta property="og:image" content="https://i.ibb.co/x8tBBNj/sffff.jpg">
-    <meta property="og:url" content="https://stanyfernando.bio/">
-    <style>
-      body {
-        font-family: 'Lora', serif;
-        max-width: 800px;
-        margin: 0 auto;
-        color: #FFFFFF;
-        background-color: #000000;
-        text-align: justify;
-      }
+	<head>
+		<title>Stany Fernando - Personal Website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="https://i.ibb.co/zx8NC6D/sf.jpg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+		<meta property="og:title" content="Stany Fernando">
+		<meta property="og:description" content="The secrets of the universe lie in the darkness, where life meets death and the boundary between them blurs. In that space, the whispers of the unknown echo through eternity, and the shadows of the past linger like ghosts, waiting to be remembered.">
+		<meta property="og:image" content="https://i.ibb.co/x8tBBNj/sffff.jpg">
+		<meta property="og:url" content="https://stanyfernando.bio/">
+		<style>
+			body {
+				font-family: 'Lora', serif;
+				max-width: 800px;
+				margin: 0 auto;
+				color: #FFFFFF;
+				background-color: #000000;
+				text-align: justify;
+			}
 
-      .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 58px;
-      }
+			.container {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-top: 58px;
+			}
 
-      .img-container,
-      .img-container-right {
-        width: calc(50% - 25px);
-        max-width: 390px;
-        margin: 0 20px;
-        text-align: center;
-        box-sizing: border-box;
-        position: relative;
-      }
+			.img-container,
+			.img-container-right {
+				width: calc(50% - 25px);
+				max-width: 390px;
+				margin: 0 20px;
+				text-align: center;
+				box-sizing: border-box;
+				position: relative;
+			}
 
-      .img-container img,
-      .img-container-right img {
-        width: 100%;
-        margin: 0;
-        transition: filter 0.5s ease-in-out;
-        filter: brightness(30%);
-        border: 1px solid #FFFFFF;
-      }
+			.img-container img,
+			.img-container-right img {
+				width: 100%;
+				margin: 0;
+				transition: filter 0.5s ease-in-out;
+				filter: brightness(30%);
+				border: 1px solid #FFFFFF;
+			}
 
-      .img-container:hover img,
-      .img-container-right:hover img {
-        filter: brightness(120%);
-      }
+			.img-container:hover img,
+			.img-container-right:hover img {
+				filter: brightness(120%);
+			}
 
-      .text-container {
-        margin-top: 30px;
-        text-align: justify;
-      }
+			.text-container {
+				margin-top: 30px;
+				text-align: justify;
+			}
 
-      @media (min-width: 320px) and (max-width: 850px) {
-        .container {
-          flex-wrap: wrap;
-          margin-top: 7px;
-        }
+			@media (min-width: 320px) and (max-width: 850px) {
+				.container {
+					flex-wrap: wrap;
+					margin-top: 7px;
+				}
 
-        .img-container,
-        .img-container-right {
-          width: 50%;
-          margin: 10px;
-          box-sizing: border-box;
-        }
+				.img-container,
+				.img-container-right {
+					width: 50%;
+					margin: 10px;
+					box-sizing: border-box;
+				}
 
-        .img-container img,
-        .img-container-right img {
-          max-width: 100%;
-        }
+				.img-container img,
+				.img-container-right img {
+					max-width: 100%;
+				}
 
-        .text-container {
-          text-align: center;
-          font-size: 18px;
-          width: 100%;
-          max-width: 350px;
-          margin: 10px auto;
-        }
-      }
+				.text-container {
+					text-align: left, justified;
+					font-size: 18px;
+					width: 100%;
+					max-width: 350px;
+					margin: 10px auto;
+				}
+			}
 
-      @media (min-width: 1280px) and (max-width: 1950px) {
-        body {
-          font-size: 18px;
-        }
+			@media (min-width: 1280px) and (max-width: 1950px) {
+				body {
+					font-size: 18px;
+				}
 
-        .container {
-          margin-top: 40px;
-        }
+				.container {
+					margin-top: 28px;
+				}
 
-        .img-container,
-        .img-container-right {
-          width: calc(50% - 25px);
-          max-width: 390px;
-          margin: 0 20px;
-          text-align: center;
-        }
+				.img-container,
+				.img-container-right {
+					width: calc(50% - 25px);
+					max-width: 390px;
+					margin: 0 20px;
+					text-align: center;
+				}
 
-        .text-container {
-          margin-top: 30px;
-          text-align: justify;
-        }
-      }
+				.text-container {
+					margin-top: 30px;
+					text-align: justify;
+				}
+			}
 
-      @media (min-width: 2624px) {
-        .container {
-          margin-top: 250px;
-        }
+			@media (min-width: 2624px) {
+				.container {
+					margin-top: 175px;
+				}
 
-        .text-container {
-          margin-top: 30px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="img-container">
-        <a href="https://gentlemanslip.bio/">
-          <img src="https://i.ibb.co/61v9SZz/ggggg.jpg" alt="i write">
-        </a>
-      </div>
-      <div class="img-container-right">
-        <a href="https://ravencaws.bio/">
-          <img src="https://i.ibb.co/0Qjr6Gt/rrr.jpg" alt="i shoot">
-        </a>
-      </div>
-    </div>
-    <div class="text-container">
-      <p>Shrouded in darkness, I find refuge in the haunting pages of gothic literature, where the past and present converge in a web of enigmatic intrigue. But my quest for the unknown extends beyond the written word. With my camera as my guide, I capture the subtle beauty of the shadows, delving into the mysteries that lay hidden within.</p>
-      <p>Photography and writing are my chosen paths for delving into the human experience, each revealing a world of beauty and intrigue beyond the mundane. The melancholy of gloomy weather is my sanctuary in a world that often feels too bright and too chaotic. As the night falls, and the veil between the living and the dead grows thin, I am inspired to create works that speak to the eerie beauty that surrounds us.</p>
-      <p>By embracing the darkness that dwells within, I seek to convey the message that there is more to this life than what meets the eye. The war within ourselves is just the beginning, and if we are brave enough to venture into the darkness, we can emerge on the other side, wiser and more enlightened. Join me on this journey into the unknown, and discover the secrets that lie beyond the shadows.</p>
-    </div>
-    <br>
-    <br>
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <a href="mailto:notavatarstany@hotmail.com">e-mail</a>
-          </li>
-          <li>|</li>
-          <li>
-            <a href="https://linktr.ee/avatarstanyplays">more</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-    <style>
-      footer {
-        background-color: #000;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-      }
+				.text-container {
+					margin-top: 30px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="img-container">
+				<a href="https://gentlemanslip.bio/">
+					<img src="https://i.ibb.co/61v9SZz/ggggg.jpg" alt="i write">
+				</a>
+			</div>
+			<div class="img-container-right">
+				<a href="https://ravencaws.bio/">
+					<img src="https://i.ibb.co/0Qjr6Gt/rrr.jpg" alt="i shoot">
+				</a>
+			</div>
+		</div>
+		<div class="text-container">
+			<p>In the thick veil of darkness that envelops me, I find solace within the haunting pages of gothic literature, where the past and present collide in a labyrinthine web of enigmatic intrigue. My quest for the unknown takes me far beyond the written word, as I navigate the treacherous terrain of the human psyche. Armed only with my camera, I explore the eerie beauty of the shadows, seeking to unearth the mysteries that lie hidden within.</p>
+			<p>Photography and writing are my chosen tools for delving into the tapestry of human existence, each one revealing a world of profound beauty and unsettling complexity. The melancholy that clings to me like a shroud in the gloomy weather is my refuge in a world that is all too bright and mundane. As the night deepens, and the veil between the living and the dead grows ever thinner, I am compelled to create works that capture the eerie essence of our world.</p>
+			<p>I hope to convey the message that the veil between the seen and unseen is thin, and with a willing heart, one can traverse between the two. The conflict that rages within us is but the beginning, and if we dare to venture into the unknown, we may emerge on the other side, enriched and enlightened. Follow me on this journey into the abyss, and discover the secrets that lie beyond the shadows, where the veil of ignorance shrouds all that is real and meaningful.</p>
+		</div>
+		<br>
+		<br>
+		<footer>
+			<nav>
+				<ul>
+					<li>
+						<a href="mailto:notavatarstany@hotmail.com">e-mail</a>
+					</li>
+					<li>|</li>
+					<li>
+						<a href="https://open.spotify.com/playlist/39UTctBUI1cmTR0G3CDSFa?si=97af8ce9cbd2481f">playlist 2023</a>
+					</li>
+					<li>|</li>
+					<li>
+						<a href="https://linktr.ee/avatarstanyplays">more</a>
+					</li>
+				</ul>
+			</nav>
+			<footer style="margin-top: 20px; text-align: center;">
+				<p style="font-size: 10px; margin-top: 8px;">© Stany Fernando; 2023</p>
+			</footer>
+			<style>
+				footer {
+					background-color: #000;
+					color: #fff;
+					text-align: center;
+					padding: 10px;
+				}
 
-      nav {
-        display: inline-block;
-      }
+				nav {
+					display: inline-block;
+				}
 
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
+				ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+				}
 
-      li {
-        display: inline-block;
-        margin: 0 10px;
-      }
+				li {
+					display: inline-block;
+					margin: 0 10px;
+				}
 
-      a {
-        color: #fff;
-        text-decoration: none;
-      }
+				a {
+					color: #fff;
+					text-decoration: none;
+				}
 
-      @media (max-width: 850px) {
-        footer {
-          text-align: center;
-        }
+				@media (max-width: 850px) {
+					footer {
+						text-align: center;
+					}
 
-        nav {
-          display: block;
-        }
+					nav {
+						display: block;
+					}
 
-        li {
-          display: block;
-          margin: 5px 0;
-        }
-      }
+					li {
+						display: block;
+						margin: 5px 0;
+					}
+				}
 
-      nav ul li a {
-        position: relative;
-        display: inline-block;
-        color: #fff;
-        text-decoration: none;
-        padding-bottom: 5px;
-        transition: all 0.3s ease-in-out;
-      }
+				nav ul li a {
+					position: relative;
+					display: inline-block;
+					color: #fff;
+					text-decoration: none;
+					padding-bottom: 5px;
+					transition: all 0.3s ease-in-out;
+				}
 
-      nav ul li a:hover {
-        color: #fff;
-        padding-bottom: 2px;
-        border-bottom: 2px solid #fff;
-      }
-    </style>
-  </body>
+				nav ul li a:hover {
+					color: #fff;
+					padding-bottom: 2px;
+					border-bottom: 2px solid #fff;
+				}
+			</style>
+	</body>
 </html>
